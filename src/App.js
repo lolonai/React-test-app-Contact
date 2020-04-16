@@ -6,7 +6,7 @@ import { Provider } from "./context";
 import AddContact from "./composants/contact/addContact";
 import Apropos from "./composants/pages/Apropos";
 import Erreur from "./composants/pages/Erreur";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
